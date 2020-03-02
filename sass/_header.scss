@@ -1,0 +1,54 @@
+// HEADER 
+
+header {
+    background-color: $custom-lightgrey;
+    padding-bottom: 2em;
+
+
+}
+
+
+
+.logo {
+    a>img {
+        width: 5em;
+    }
+}
+
+.navbar-toggler-icon {
+    background-image: url(/images/toggler-04.svg);
+
+}
+
+.navbar-nav {
+    font-size: 1.5em;
+}
+
+.intro {
+    margin-top: 2em;
+    padding-bottom: 2em;
+}
+
+.show {
+    height: 100vh !important;
+
+    ul>li {
+        padding: 0.5em;
+        font-size: 2em;
+    }
+}
+
+.nav-link {
+    color: $custom-blue;
+}
+
+.nav-link:hover {
+    color: white;
+    background-color: $custom-orange;
+    transition: 0.5s;
+
+}
+
+.nav-link:focus {
+    border: 1px solid $custom-orange;
+}

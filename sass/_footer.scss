@@ -1,0 +1,30 @@
+footer {
+    position: fixed;
+    width: 100%;
+    z-index: -99;
+    bottom: 0;
+    background-color: $custom-blue;
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+    p {
+        color: white;
+    }
+
+}
+
+.footer__icons {
+
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1em;
+
+
+
+    a {
+        padding: 0.5em;
+        font-size: 2.2em;
+        color: white;
+    }
+
+}

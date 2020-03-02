@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo|Lato&display=swap');
+
+body {
+    font-family: 'Archivo', sans-serif;
+}
+
+.heading-1 {
+    border-bottom: 6px solid black;
+    padding-top: 2em;
+    margin-bottom: 1em;
+    width: max-content;
+
+}
+
+
+
+
+// Desktop
+
+h1 {
+    font-size: 2.6em;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1em;
+}
+
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 4em;
+        font-weight: 700;
+    }
+
+    h2 {
+        font-size: 2.2em;
+        font-weight: bold;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
